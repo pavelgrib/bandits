@@ -175,7 +175,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/usr/local/Cellar/boost/1.55.0/include,
-					"/Users/paul/github/smhasher-read-only",
+					"/Users/paul/github/bandits/smhasher-read-only",
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.55.0/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
@@ -207,7 +207,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/usr/local/Cellar/boost/1.55.0/include,
-					"/Users/paul/github/smhasher-read-only",
+					"/Users/paul/github/bandits/smhasher-read-only",
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/boost/1.55.0/lib;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/paul/github/smhasher-read-only/PMurHash.c
+PMurHash.h
+/Users/paul/github/smhasher-read-only/PMurHash.h
+stdlib.h
+-
+
+/Users/paul/github/smhasher-read-only/PMurHash.h
+stdint.h
+-
+limits.h
+-
+

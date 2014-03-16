@@ -1,0 +1,2 @@
+/Users/paul/github/smhasher-read-only/build/CMakeFiles/SMHasher.dir
+/Users/paul/github/smhasher-read-only/build/CMakeFiles/SMHasherSupport.dir
