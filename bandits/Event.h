@@ -19,6 +19,7 @@ typedef struct Event
 {
   std::string name;
   unsigned int index;
+  time_t timeOccurred;
 } Event;
 
 

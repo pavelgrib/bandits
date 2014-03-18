@@ -11,6 +11,7 @@
 		DA16B48518D4EC75008ABDAC /* bandits.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA16B48418D4EC75008ABDAC /* bandits.1 */; };
 		DA16B49118D51439008ABDAC /* Bandit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA16B49018D51439008ABDAC /* Bandit.cpp */; };
 		DA16B49418D529A6008ABDAC /* BetaDistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA16B49318D529A6008ABDAC /* BetaDistribution.cpp */; };
+		DA16B49718D7F3DB008ABDAC /* Simulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA16B49618D7F3DB008ABDAC /* Simulator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		DA16B49018D51439008ABDAC /* Bandit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bandit.cpp; sourceTree = "<group>"; };
 		DA16B49218D528E6008ABDAC /* BetaDistribution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetaDistribution.h; sourceTree = "<group>"; };
 		DA16B49318D529A6008ABDAC /* BetaDistribution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BetaDistribution.cpp; sourceTree = "<group>"; };
+		DA16B49518D7E83E008ABDAC /* Simulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simulator.h; sourceTree = "<group>"; };
+		DA16B49618D7F3DB008ABDAC /* Simulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Simulator.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				DA16B49018D51439008ABDAC /* Bandit.cpp */,
 				DA16B49218D528E6008ABDAC /* BetaDistribution.h */,
 				DA16B49318D529A6008ABDAC /* BetaDistribution.cpp */,
+				DA16B49518D7E83E008ABDAC /* Simulator.h */,
+				DA16B49618D7F3DB008ABDAC /* Simulator.cpp */,
 			);
 			name = bandit;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 				DA16B48318D4EC75008ABDAC /* main.cpp in Sources */,
 				DA16B49118D51439008ABDAC /* Bandit.cpp in Sources */,
 				DA16B49418D529A6008ABDAC /* BetaDistribution.cpp in Sources */,
+				DA16B49718D7F3DB008ABDAC /* Simulator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
