@@ -11,6 +11,9 @@
 Simulator::Simulator(const time_t timeToRun, const double poissonLambda) :
 _poissonLambda(poissonLambda), _timeToRun(timeToRun)
 {
+  _context = std::unique_ptr<zmq::context_t>(new zmq::context_t(1));
+  _eventPubSocket = std::unique_ptr<zmq::socket_t>(new zmq::socket_t( *_context, ZMQ_PUB ));
+
   _currentTime = 0;
   _eventIndex = 0;
   assert(_poissonLambda > 0);
@@ -19,8 +22,25 @@ _poissonLambda(poissonLambda), _timeToRun(timeToRun)
 
 
 Simulator::~Simulator()
-{}
+{
+  this->sendEndMessage();
+}
 
+
+void Simulator::waitForConnections()
+{
+  
+}
+
+void Simulator::sendEndMessage()
+{
+  _eventPubSocket->send("end", 4);
+}
+
+void Simulator::sendEvent(Event &event)
+{
+  
+}
 
 void Simulator::run()
 {
