@@ -8,16 +8,21 @@
 
 #include "Simulator.h"
 
-Simulator::Simulator(const time_t timeToRun, const double poissonLambda) :
-_poissonLambda(poissonLambda), _timeToRun(timeToRun)
+using namespace sim;
+
+Simulator::Simulator(const time_t timeToRun, const unsigned int numberOfUsers, const double poissonLambda) :
+_numberOfUsers(numberOfUsers), _timeToRun(timeToRun), _possionLambda(poissonLambda)
 {
   _context = std::unique_ptr<zmq::context_t>(new zmq::context_t(1));
   _eventPubSocket = std::unique_ptr<zmq::socket_t>(new zmq::socket_t( *_context, ZMQ_PUB ));
 
   _currentTime = 0;
   _eventIndex = 0;
-  assert(_poissonLambda > 0);
-  _poisson.param(poisson_distribution<int, double>::param_type(_poissonLambda));
+  assert(_numberOfUsers > 0);
+  
+  
+  
+  _poisson.param(poisson_distribution<int, double>::param_type(poissonLambda));
 }
 
 

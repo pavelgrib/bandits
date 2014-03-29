@@ -41,6 +41,7 @@
 		DA2A972818E5A55E00E2423C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DA2A972918E5A55E00E2423C /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		DA2A972A18E5A55E00E2423C /* zmq.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = zmq.hpp; sourceTree = "<group>"; };
+		DA2A972B18E75D9800E2423C /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 			children = (
 				DA16B49518D7E83E008ABDAC /* Simulator.h */,
 				DA16B49618D7F3DB008ABDAC /* Simulator.cpp */,
+				DA2A972B18E75D9800E2423C /* User.h */,
 			);
 			name = simulator;
 			sourceTree = "<group>";

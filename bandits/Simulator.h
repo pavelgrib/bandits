@@ -18,20 +18,22 @@
 #include <boost/random/mersenne_twister.hpp>
 #include <boost/random/poisson_distribution.hpp>
 
+namespace sim {
 
 using namespace boost::random;
 
 class Simulator {
 
 public:
-  Simulator(const time_t timeToRun, const double poissonLambda);
+  Simulator(const time_t timeToRun, const unsigned int numberOfUsers, const double poissonLambda);
   ~Simulator();
   
   double percentageSuccess();
   void run();
 
 private:
-  double _poissonLambda;
+  unsigned int _numberOfUsers;
+  double _possionLambda;
   time_t _timeToRun;
   mt19937 _mersenneEngine;
   poisson_distribution<int, double> _poisson;
@@ -46,5 +48,7 @@ private:
   void sendEndMessage();
   void waitForConnections();
 };
+
+}
 
 #endif
