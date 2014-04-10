@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5748209F-35F3-4054-9D4A-09FA80434A5A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>bandits</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>76EEAF4F-BA12-42B2-80AA-A1B12B352922</key>
+		<string>https://github.com/pavelgrib/bandits.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>bandits.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>76EEAF4F-BA12-42B2-80AA-A1B12B352922</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pavelgrib/bandits.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>76EEAF4F-BA12-42B2-80AA-A1B12B352922</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>76EEAF4F-BA12-42B2-80AA-A1B12B352922</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bandits</string>
+		</dict>
+	</array>
+</dict>
+</plist>
