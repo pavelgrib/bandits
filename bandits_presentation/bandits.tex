@@ -202,6 +202,18 @@ Thus, if we make these (strong) assumptions about the distribution of the measur
 
 
 \begin{frame}
+\frametitle{Or What if We Got Other Ideas?}
+\begin{figure}[ht!] 
+\centering
+\subfloat{\includegraphics[width=0.35\linewidth]{resources/google_site1.png}}\pause
+\subfloat{\includegraphics[width=0.35\linewidth]{resources/google_dogs1.png}}\pause\\
+\subfloat{\includegraphics[width=0.35\linewidth]{resources/google_dogs2.png}}\pause
+\subfloat{\includegraphics[width=0.35\linewidth]{resources/google_dogs3.png}}
+\caption{So many choices, so little time!}
+\end{figure}
+\end{frame}
+
+\begin{frame}
 \frametitle{Outline of Process}
 We will label the versions by the number of cats they have: $C_0, C_1, C_2, C_3, \ldots C_n$
 \begin{enumerate}[<+->]
@@ -284,7 +296,7 @@ It's clear that A/B testing does not minimize regret since we wind up alienating
 \begin{frame}
 \frametitle{How I Stopped Worrying and Learned to Love the Beta Distribution}
 \begin{defn}[Beta Distribution]
-This is a two-parameter probability distribution over the interval $[0, 1]$, and because of this, it is used to model "the probability of probabilities".  The two parameters are labeled $\alpha$ and $\beta$ and skew the density function either to the left (higher $\alpha$) or to the right (higher $\beta$).  The density function is written as:
+This is a two-parameter probability distribution over the interval $[0, 1]$, and because of this, it is used to model "the probability of probabilities".  The two parameters are labeled $\alpha$ and $\beta$ and skew the density function either to the right (higher $\alpha$) or to the left (higher $\beta$).  The density function is written as:
 $$
 Beta_{\alpha, \beta}(x) \sim x^{\alpha - 1}(1 - x)^{\beta - 1}
 $$
@@ -324,7 +336,7 @@ Why do we need this mess?
 \subsection{Resources}
 
 \begin{frame}
-\frametitle{Further Reading - Links to Resources}
+\frametitle{Further Reading - Links to Resources (Standing on the Shoulders of Giants}
 \begin{itemize}
 \item \href{http://20bits.com/article/statistical-analysis-and-ab-testing}{Statistical Analysis and A/B Testing}
 \item \href{http://www.amazon.com/Reinforcement-Learning-Introduction-Adaptive-Computation/dp/0262193981}{Reinforcement Learning book}
@@ -332,6 +344,7 @@ Why do we need this mess?
 \item \href{http://www.graphpad.com/support/faqid/1790/}{Background on Statistical Tests}
 \item \href{http://www.meetup.com/NYData/events/160722942/?_af_eid=160722942&a=uc1_te&_af=event}{Meetup Event}
 \item \href{http://chrishalpert.com/NYDW\%20Bandit\%20Presentation.ppsx}{Meetup Event Slides}
+\item \href{https://github.com/pavelgrib/bandits}{https://github.com/pavelgrib/bandits}
 \end{itemize}
 \end{frame}
 
